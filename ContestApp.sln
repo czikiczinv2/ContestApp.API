@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestApp.api", "ContestApp.api\ContestApp.api.csproj", "{BA71F009-3E0E-44D9-9812-A41877BBA246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestApp.api.Tests", "ContestApp.api.Tests\ContestApp.api.Tests.csproj", "{B91D2BFC-EE74-4789-8706-6E76239ED51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA71F009-3E0E-44D9-9812-A41877BBA246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA71F009-3E0E-44D9-9812-A41877BBA246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA71F009-3E0E-44D9-9812-A41877BBA246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA71F009-3E0E-44D9-9812-A41877BBA246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91D2BFC-EE74-4789-8706-6E76239ED51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91D2BFC-EE74-4789-8706-6E76239ED51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91D2BFC-EE74-4789-8706-6E76239ED51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91D2BFC-EE74-4789-8706-6E76239ED51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

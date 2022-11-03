@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  contestapp-api:
+    build: .
+    ports:
+      - "8000:80"
+    depends_on:
+      - sql-server
+  sql-server:
+    container_name: sql-server-contestapp
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "4433:1433"
+    
